@@ -1,7 +1,10 @@
 nothing much. This is a fixed version of the SD WebUI.
 It was giving some errors regarding gradio lately.
 
-(Traceback (most recent call last):
+
+Error example:
+
+Traceback (most recent call last):
   File "/content/gdrive/MyDrive/sd/stable-diffusion-webui/webui.py", line 13, in <module>
     initialize.imports()
   File "/content/gdrive/MyDrive/sd/stable-diffusion-webui/modules/initialize.py", line 23, in imports
@@ -21,6 +24,6 @@ It was giving some errors regarding gradio lately.
     from gradio.component_meta import ComponentMeta
   File "/usr/local/lib/python3.11/dist-packages/gradio/component_meta.py", line 12, in <module>
     from gradio.exceptions import ComponentDefinitionError
-ImportError: cannot import name 'ComponentDefinitionError' from 'gradio.exceptions' (/usr/local/lib/python3.11/dist-packages/gradio/exceptions.py)_
+ImportError: cannot import name 'ComponentDefinitionError' from 'gradio.exceptions' (/usr/local/lib/python3.11/dist-packages/gradio/exceptions.py
 
 
